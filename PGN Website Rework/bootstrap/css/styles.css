@@ -213,13 +213,15 @@ html {
 
 
 /*--------------------Event Page Styles--------------------*/
-
 .timeline {
   position: absolute;
+  /* top: 50%; */
   top: 50%;
   display: flex;
   align-items: center;
   height: 50px;
+  /* width: 100%; */
+  /* background-color: beige; */
 }
 
 .event1
@@ -290,8 +292,6 @@ html {
   color: #9E9E9E;
 }
 
-
-
 .eventImage{
     width: 200px;
     height: 200px;
@@ -317,3 +317,8 @@ html {
 .eventDetail{
     font-size: 7.5px;
 }
+
+
+/* .timelineContainer{
+
+} */
